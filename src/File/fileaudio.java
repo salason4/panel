@@ -16,7 +16,7 @@ public class fileaudio {
 
         String response = "";
         while (!response.equals("Q")){
-            System.out.println("P =Play, S = Stop, R = Reset, Q= quit");
+             System.out.println("P =Play, S = Stop, R = Reset, Q= quit");
             System.out.print(" Enter your choice: ");
             response = scanner.next();
             response = response.toUpperCase();
