@@ -13,6 +13,5 @@ public class MyFrame extends javax.swing.JFrame {
         ImageIcon image = new ImageIcon("C:\\Users\\HP.COM\\IdeaProjects\\Engr_horshy\\src\\File\\logo.jpg");// create an imageicon
         this.setIconImage(image.getImage());// change icon of frame
         this.getContentPane().setBackground(new Color(123,50,250)); // set background color to green
-
     }
 }
